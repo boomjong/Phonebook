@@ -1,0 +1,14 @@
+<div class="main">
+	<div class="container">
+		<h1>Phone#home</h1>
+	</div>
+	<div class="content">
+		<% @phone.each do |phone| %>
+			<div class="phone">
+				<p class="element">Naam: <%= phone.fullname %> Telefoonnummer: <%= phone.phonenumber %></p>
+			</div>
+		<% end %>
+	</div>
+
+  </div>
+</div>
